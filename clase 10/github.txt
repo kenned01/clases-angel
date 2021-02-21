@@ -1,0 +1,9 @@
+en este archivo se pondran todos los comandos basicos de git
+
+### para poder subir un archivo
+
+git add [ . | (nombre de un archivo)] // sirve para añadir los archivos modificados
+
+git commit -m "[identificador]" // sirve para añadir un indentificador a los archivos modificados
+
+git push origin [branch] // sirve para subir los archivos modificados al repositorio
