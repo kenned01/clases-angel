@@ -1,0 +1,150 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#landing{
+  height: 80%;
+  min-height: 80%;
+  background-image: url("./img/fondo.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-d{
+  width: 80%;
+  min-height: 100px;
+}
+
+.landing-d h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.landing-d button{
+  padding: 1%;
+  color: #fff;
+  background-color: rgb(255, 171, 44);
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-button:hover{
+  background: white;
+  color:rgb(255, 171, 44);
+  border: 1px solid rgb(255, 171, 44);
+  border-radius: 1px;
+  box-shadow: 12px 10px 25px -15px rgba(0,0,0,0.75);
+}
+
+.main-button{
+  transition: background, color, .5s ease;
+}
+
+@media screen  and (min-width: 0px) and (max-width: 576px){
+  /* small */
+  .main-button{
+    font-size: 22px !important;
+    padding: 2.5% !important;
+  }
+
+  #extra{
+    width: 100%;
+  }
+
+  .card{
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 15%;
+  }
+
+  .card img{
+    width: 25%;
+  }
+
+  .card p{
+    font-size: 35px;
+  }
+
+  .card h5{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .card:nth-child(1){
+    border-left: 7px solid indigo;
+  }
+
+  .card:nth-child(2){
+    border-left: 7px solid orangered;
+  }
+
+  .card:nth-child(3){
+    border-left: 7px solid green;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+  /* medium */
+}
+@media screen and (min-width: 769px){
+  /* large */
+  
+  #extra{
+    position: relative;
+    height: 30%;
+  }
+
+  #extra div{
+    position: absolute;
+    right: 0;
+    top: -60%;
+    display: flex;
+    width: 80%;
+    border: 1px solid rgb(209, 211, 211);
+    border-radius: 1px;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  #extra .card {
+    background-color: #fff;
+    width: calc(100% / 3) ;
+    padding-top: 3%;
+    cursor: pointer;
+  }
+
+  #extra .card img {
+    height: 30%;
+    color: indigo;
+  }
+
+  #extra .card p {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+  }
+
+  #extra .card h5{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+  }
+  .left-border{
+    border-left: 1px solid rgb(209, 211, 211);
+  }
+}

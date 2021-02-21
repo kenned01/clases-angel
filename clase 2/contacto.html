@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  
+  <form onsubmit="formulario(event)" autocomplete="off" >
+
+    <input class="estilos1" placeholder="name" id="name" required />
+
+    <input class="estilos2" placeholder="email" id="email" required/>
+    <button >Enviar</button>
+
+  </form>
+
+  <script>
+
+    function formulario( event ){
+      event.preventDefault();
+
+      var nombre = document.getElementById("name").value;
+      var email  = document.getElementById("email").value;
+      alert(nombre + email);
+    }
+
+    function hi ( parametro1 ) {
+
+      alert(parametro1);
+
+    }
+
+
+  </script>
+
+</body>
+</html>

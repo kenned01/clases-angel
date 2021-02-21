@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<center>
+		<img class="foto-perfil" src="./imagenes/self.jpg">
+
+		<div class="descripcion">
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices risus eget tempus rutrum. Ut sit amet tempor velit. Nam ac hendrerit mauris. Mauris ac scelerisque massa. Nam nec elit gravida, porta neque in, feugiat eros. Aenean sit amet turpis vel ex tempus faucibus. Nullam posuere libero vel lobortis commodo.</p>
+			<br>
+		</div>
+
+		<div class="descripcion">
+			<table>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Skills</th>
+						<th>Desc.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>skills-1</td>
+						<td>desc-1</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>skills-2</td>
+						<td>desc-2</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<br><br>
+		<div>
+			<form onsubmit="contactar(event)">
+				<input type="text" required placeholder="Nombre">
+				<input type="email" required placeholder="Email">
+
+				<button type="submit">Contactar</button>
+			</form>
+		</div>
+		<br><br>
+
+	</center>
+
+	<script>
+		function contactar(event){
+			event.preventDefault();
+			alert("Mensaje Enviado");
+		}
+	</script>
+</body>
+</html>

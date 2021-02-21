@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- este es el form para sumar -->
+  <form onsubmit="sumar(event)">
+    <input type="number" name="numero1" id="suma_n_1" step="any" min="0" placeholder="digite su primer numero" required>
+
+    <input type="number" name="numero2" id="suma_n_2" step="any" min="0" placeholder="digite su segundo numero" required>
+
+    <button type="submit">SUMAR</button>
+  </form>
+
+  <br>
+  <!-- restar -->
+  <form onsubmit="restar(event)">
+    <input type="number" name="numero1" id="resta_n_1" step="any" min="0" placeholder="digite su primer numero" required>
+
+    <input type="number" name="numero2" id="resta_n_2" step="any" min="0" placeholder="digite su segundo numero" required>
+
+    <button type="submit">RESTAR</button>
+  </form>
+
+  <br>
+  <!-- multiplicar -->
+  <form onsubmit="multiplicar(event)">
+    <input type="number" name="numero1" id="multiplicacion_n_1" step="any" min="0" placeholder="digite su primer numero" required>
+
+    <input type="number" name="numero2" id="multiplicacion_n_2" step="any" min="0" placeholder="digite su segundo numero" required>
+
+    <button type="submit">MULTIPLICAR</button>
+  </form>
+
+  <br>
+  <!-- dividir -->
+  <form onsubmit="dividir(event)">
+    <input type="number" name="numero1" id="division_n_1" step="any" min="0" placeholder="digite su primer numero" required>
+
+    <input type="number" name="numero2" id="division_n_2" step="any" min="0" placeholder="digite su segundo numero" required>
+
+    <button type="submit">DIVIDIR</button>
+  </form>
+
+  <script src="./ecuaciones.js"></script>
+</body>
+</html>

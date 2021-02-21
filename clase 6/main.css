@@ -1,0 +1,64 @@
+body, html{
+  background-color: indigo;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+  comentario css
+
+  combinadores
+  >, "espacio", ~, +
+
+  hemos visto
+
+  estilos con etiquetas
+  estilos con clases
+*/
+
+section{
+  background-color: ivory;
+}
+
+.text-azul{
+  color: blue;
+}
+
+.text-rojo{
+  color: red;
+}
+
+/*
+  ~
+  alt + 126
+*/
+
+/* elementos adyacentes
+   es decir el hermano siguiente
+*/
+.hermano1 + div{
+  color: green;
+  font-size: 20px;
+}
+
+/* todos los hermanos */
+.hermano1 ~ div{
+  color: red;
+  font-size: 20px;
+}
+
+/* hijos directos */
+.hermano1 > p{
+  color: blue;
+}
+
+/* a cualquier hijo del elemento o referencia */
+.hermano1 p {
+  color: blue;
+}
+
+/* hijos directos */
+section > p{
+  font-size: 40px;
+  color: orangered;
+}

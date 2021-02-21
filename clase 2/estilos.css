@@ -1,0 +1,23 @@
+body{
+  background-color: rgba(44, 224, 194, 0.884);
+  background-image: url("https://i.blogs.es/aa1b9a/luna-100mpx/450_1000.jpg");
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+button {
+  font-size: 25px;
+}
+
+.estilos1 {
+  font-size: 25px;
+  background-color: brown;
+  color: white;
+}
+
+.estilos2 {
+  font-size: 25px;
+  background-color: cadetblue;
+  color: white;
+}

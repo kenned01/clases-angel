@@ -1,0 +1,19 @@
+una funcion
+es un parte del codigo pero no se usa hasta que se 
+llama
+
+variables: 
+una palabra que el programador define y quiere almacenar algo en ella
+  texto
+  numero
+  bool //true or false
+
+sumar
+restar
+multipliicar
+dividir
+
+
+// css
+clases
+id

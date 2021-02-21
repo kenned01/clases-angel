@@ -1,0 +1,60 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* background-color: #1aaab8; */
+  background-color: rgb(100,50,240);
+}
+
+.card{
+  width: 30%;
+  height: 70%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 39px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 39px -17px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 39px -17px rgba(0,0,0,0.75);
+}
+
+center{
+  width: 100%;
+  height: 100%;
+}
+
+.header-c{
+  height: 35%;
+  background: rgba(208,196,242,1);
+  background: -moz-linear-gradient(45deg, rgba(208,196,242,1) 0%, rgba(123,122,219,1) 26%, rgba(54,62,201,1) 47%, rgba(54,62,201,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(208,196,242,1)), color-stop(26%, rgba(123,122,219,1)), color-stop(47%, rgba(54,62,201,1)), color-stop(100%, rgba(54,62,201,1)));
+  background: -webkit-linear-gradient(45deg, rgba(208,196,242,1) 0%, rgba(123,122,219,1) 26%, rgba(54,62,201,1) 47%, rgba(54,62,201,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(208,196,242,1) 0%, rgba(123,122,219,1) 26%, rgba(54,62,201,1) 47%, rgba(54,62,201,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(208,196,242,1) 0%, rgba(123,122,219,1) 26%, rgba(54,62,201,1) 47%, rgba(54,62,201,1) 100%);
+}
+
+.body-c{
+  height: 45%;
+}
+
+.footer-c{
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dedede;
+}
+
+.bc-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col{
+  width: 100%;
+}
+
+
+.perfil{
+  width: 35%;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 7px solid #fff;
+}
