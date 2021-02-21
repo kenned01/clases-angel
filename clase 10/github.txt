@@ -7,3 +7,12 @@ git add [ . | (nombre de un archivo)] // sirve para añadir los archivos modific
 git commit -m "[identificador]" // sirve para añadir un indentificador a los archivos modificados
 
 git push origin [branch] // sirve para subir los archivos modificados al repositorio
+
+
+### enlazar archivos modificados del repositorio a nuestra maquina local
+
+git pull origin [branch]
+
+### para clonar un repositorio
+
+git clone [url del repositorio]
