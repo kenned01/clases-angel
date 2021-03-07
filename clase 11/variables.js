@@ -28,6 +28,6 @@ miNombre = "isaac";// se le cambia el valor de la variable
 */
 
 const mayorDeEdad = 18;
-//mayorDeEdad = 21; va a dar error ya que una constante no puede cambiar su valor
+//mayorDeEdad = 21; //va a dar error ya que una constante no puede cambiar su valor
 
 console.log(mayorDeEdad);
