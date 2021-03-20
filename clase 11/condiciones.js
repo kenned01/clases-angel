@@ -68,13 +68,14 @@ if(
 // agrupar de otra manera
 nombre = "angels"; // kenned o isaac
 if(
-  (edad == 18) // si esto es verdadero
+  (edad == 18) // si esto es verdadero = true
   && 
 
+//  true                  && true  = true
   ( (nombre != "kenned") && (nombre != "isaac") )// el resultado es SI
 
 ){
-console.log("verdadero");// se ejecuta esta linea
+  console.log("verdadero");// se ejecuta esta linea
 }else{
   console.log("false");
 }

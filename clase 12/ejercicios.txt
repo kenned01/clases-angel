@@ -1,0 +1,29 @@
+1- calcular de interez anual (monto * cantidad de años * tasa de interez) / 100
+
+2- calcular promedio de notas (suma de todas las notas entre la cantidad de ellas)
+
+3- validar si una cadena es un palindromo
+
+4- tener el siguiente resultado utilizando bucles
+  **
+  ****
+  ******
+  ********
+  **********
+
+5- tener el siguiente resultado utilizando bucles
+
+            *
+          * * *
+        * * * * *
+      * * * * * * *
+    * * * * * * * * *
+
+6- fibonacci /iniciando desde 0
+    a           +     b        =  c
+  numero actual + numero siguiente  = resultado //para el comienzo
+
+      b(anterior b)         +       c(anterior c)      =     c(nuervo c)
+  numero siguiente + resultado = resultado// para continuar la serie
+
+   1+1=2 / 1+2=3 / 2+3=5 / 3+5=8 / 5+8=13 / 8+13=21 
