@@ -1,15 +1,33 @@
 const prompt = require('prompt');
-
 prompt.start();
 
-prompt.get(['username', 'email'], function (err, result) {
-    if (err) { return onErr(err); }
-    console.log('Command-line input received:');
-    console.log('  Username: ' + result.username);
-    console.log('  Email: ' + result.email);
-});
 
-function onErr(err) {
-    console.log(err);
-    return 1;
+let preguntas = ['nombre', 'edad'];
+
+
+/* tipos de variables
+
+    let string = "";
+    let number = 0;
+    let bolean = false | true;
+    
+    let arreglos = []; 
+    // por posiciones   areglo[0]
+    
+    let json = { key: valor, key2: valor2, key3: valor3 } // se rigen por los key
+    json.key
+*/
+
+function validarRespuesta(error , resultado ) {
+    if(error){
+        return 1;
+    }
+
+    let nombre = resultado.nombre;
+    let edad   = resultado.edad;
+
+    console.log("Hola " + nombre + " tu edad es :" + edad);
 }
+
+
+prompt.get( preguntas, validarRespuesta );
